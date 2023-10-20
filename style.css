@@ -1,0 +1,375 @@
+:root {
+    --primary: #714ca5;
+    --secondary: #b57edc;
+    --text-color: #fff;
+    --text-secondary: black;
+    --text-tertiary: #515151;
+}
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#curso {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("imagens/bookcases-1869616.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+}
+
+#descricaodocurso h2,
+h4 {
+    color: var(--primary)
+}
+
+#descricaodocurso h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#descricaodocurso h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#descricao h5 {
+    font-weight: bold;
+}
+
+#subscription-form {
+    background-color: var(--secondary);
+    padding: 0.5em;
+    max-width: 22%;
+}
+
+#subscription-form p {
+    font-size: 1.5s;
+    color: var(--text-secondary);
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form-group label {
+    color: #000000;
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+#key-benefits h2 {
+    background-color: #b57edc;
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 19%;
+    color: #714ca5;
+}
+
+.benefit .benefit-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1 {
+    background-image: url("imagens/livro.png");
+}
+
+#benefit-2 {
+    background-image: url("imagens/lista-de-controle.png");
+}
+
+#benefit-3 {
+    background-image: url("imagens/educacao.png");
+}
+
+#sobreocurso {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("imagens/s.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 3em;
+}
+
+#c,
+#metadocurso {
+    max-width: 30%;
+}
+
+#c {
+    display: flex;
+}
+
+#c i {
+    color: white;
+    font-size: 4em;
+    margin-right: 0.5em;
+}
+
+#detalhedocurso {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#metadocurso h3 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detail img {
+    width: 25%;
+}
+
+.detail h3 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#detail-1 h3 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.detail-description {
+    width: 100;
+    padding-left: 2em;
+}
+
+.detail-description ul {
+    list-style-position: inside;
+}
+
+.detail-description ul li {
+    margin-bottom: 0.4em;
+}
+
+.detail-description ul li:last-child {
+    font-weight: bold;
+}
+
+#cta {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("imagens/imgg.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#cta .btn {
+    width: 15%;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+    color: #714ca5;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+}
+
+#footer p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2 em;
+}
+
+#footer span {
+    font-weight: bold;
+}
+
+@media (max-width:450px) {
+
+    .btn {
+        opacity: 1;
+    }
+
+    #curso {
+        flex-direction: column;
+        height: auto;
+    }
+
+
+
+    #descricaodocurso {
+        padding: 2em;
+    }
+
+    #descricaodocurso h2 {
+        margin-bottom: .5em;
+    }
+
+    #subscription-form {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    #benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 1em;
+    }
+
+    .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #sobreocurso {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #c {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #c i {
+        margin: .3em 0;
+    }
+
+    #metadocurso {
+        order: 1;
+        max-width: 100%;
+    }
+
+    #metadocurso h3 {
+        margin-bottom: 0;
+    }
+
+    #metadocurso p {
+        display: none;
+    }
+
+    .detail {
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+    }
+
+    .detail.img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 img {
+        display: none;
+    }
+
+    .detail-description {
+        padding: 0;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+        order: 1;
+    }
+
+    #cta {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 80%;
+    }
+
+}
